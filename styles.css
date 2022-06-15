@@ -17,10 +17,15 @@ a {
 }
 
 .navbar {
-    display: flex;
+    display:flex ;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
+    padding: auto;
+    margin: auto;
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: -15;
+  z-index: 5;
 }
 
 .hamburger {
